@@ -1,0 +1,324 @@
+/* 언어설정 */
+@charset 'utf-8';
+
+/* 임포트 구글폰트 주소*/
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+
+
+
+/* 전체설정 */
+
+* {}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 로고설정 */
+
+.logo {}
+
+.logo h1 {
+    font-size: 30px;
+    font-family: "Libertinus Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.logo h1 a {
+    display: block;
+    padding: 5px;
+    color: #FFA807;
+}
+
+
+/* 박스바 디자인 */
+.box2 {
+    background-color: #FFA807;
+}
+
+
+
+/* 메뉴설정 */
+.menu {}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    display: block;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+    background-color: #DE9103;
+}
+
+
+/* box3 스토리 설정 */
+
+
+.story {}
+
+.story-cat {}
+
+.story-cat ul {}
+
+.story-cat ul li {}
+
+.story-cat ul li a {}
+
+
+
+
+.story h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.story h2 {
+    margin: 0 0 40px 0;
+    border-left: solid 13px #ff0011;
+    padding-left: 10px;
+}
+
+.story p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.story p img {
+    width: 100%;
+    height: auto;
+}
+
+.story-cat {
+    margin-bottom: 25px;
+}
+
+.story-cat ul {
+    display: flex;
+}
+
+.story-cat ul li {}
+
+.story-cat ul li a {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #ff1100;
+    color: #fff;
+    margin-right: 5px;
+
+}
+
+.story-cat ul li a:hover {
+    background-color: #F56040;
+}
+
+
+
+
+
+/* info설정 */
+.info {
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+
+.info i {
+    color: #000;
+    margin-right: 5px;
+}
+
+
+/* sns설정 */
+
+.sns ul {
+    display: flex;
+}
+
+.sns ul li {
+    width: 33.3333%;
+}
+
+.sns ul li a {
+    display: block;
+    text-align: center;
+
+}
+
+.sns ul li i {
+    color: #fff;
+}
+
+.sns ul li p {
+    color: #fff;
+}
+
+
+.sns ul li:nth-child(1) {
+    background-color: #1DA1F2;
+}
+
+.sns ul li:nth-child(2) {
+    background-color: #1877F2;
+}
+
+.sns ul li:nth-child(3) {
+    background-color: #E1306C
+}
+
+
+
+/* 관련기사설정 */
+.relation {
+    display: block;
+    background-color: #EFEFD3;
+    padding: 20px;
+}
+
+.relation h1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #727224;
+}
+
+.relation ul {
+    display: flex;
+}
+
+.relation ul li {
+    padding: 10px;
+}
+
+.relation ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.relation ul li img {
+    width: 100%;
+}
+
+.relation ul li p {
+    font-size: 12px;
+}
+
+
+
+/* 사이드메뉴설정 */
+.sidemenu {
+    margin: 0 25px 0 0;
+}
+
+.sidemenu h1 {
+    margin: 0 25px 0 0;
+    border-bottom: 2px dotted #ddd;
+}
+
+.sidemenu ul {}
+
+.sidemenu ul li {}
+
+.sidemenu ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.sidemenu i {
+    color: #ddd;
+    margin-right: 5px;
+}
+
+.sidemenu p {}
+
+
+
+
+
+/* 추천기사설정 */
+.recommend {
+    margin-bottom: 30px;
+}
+
+.recommend h1 {
+    margin-bottom: 10px;
+    border-bottom: 2px #ddd dotted;
+    font-size: 18px;
+
+}
+
+.recommend ul {}
+
+.recommend ul li {}
+
+.recommend ul li a {
+    display: block;
+    padding: 0px;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.recommend ul li a img {
+    width: 50%;
+    vertical-align: bottom;
+}
+
+.recommend ul li a p {
+    position: absolute;
+    padding: 5px 10px;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+
+
+
+/* 인기기사 설정 */
+
+.popular {}
+
+.popular h1 {
+    font-size: 18px;
+    border-bottom: 2px dotted #ddd;
+}
+
+.popular ul {}
+
+.popular ul li {}
+
+.popular ul li a {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.popular img {}
+
+.popular p {width: auto;}
+
+.popular span {display: block;
+width: auto;}
